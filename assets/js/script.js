@@ -2,13 +2,6 @@
 
 */
 
-// Hamburger menu
-var hamburger = document.querySelector('.hamburger')
-var nav = document.querySelector('nav')
-hamburger.addEventListener('click', function () {
-  nav.classList.toggle('show')
-  hamburger.classList.toggle('show')
-})
 
 // Filtered tab functionality
 
